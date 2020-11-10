@@ -9,9 +9,9 @@ export const Content = () => {
                 <GridItem column="span 2">Hello</GridItem>
                 <GridItem row="span 2">Helo</GridItem>
                 <GridItem row="span 2">Helo</GridItem>
-                <GridItem column="span 2" row="span 1">Hello</GridItem>
+                <GridItem column="span 1" row="span 2">Hello</GridItem>
                 <GridItem row="span 2">Helo</GridItem>
-                <GridItem row="span 2">Helo</GridItem>
+                <GridItem column="span 2">Helo</GridItem>
             </GridLayout>
         </AppContainer>
     )

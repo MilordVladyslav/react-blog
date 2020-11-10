@@ -104,9 +104,9 @@ export const CategoryUnderTitle = styled.p`
 
 export const GridLayout = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 10px;
-    grid-auto-rows: minmax(180px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: 200% 40%;
     grid-auto-flow: dense;
 `
 
