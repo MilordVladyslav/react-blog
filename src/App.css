@@ -5,3 +5,11 @@
   font-weight: 400;
   font-display: fallback; /* <- this can be added to each @font-face definition */
 }
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('./styles/fonts/Nunito-Regular.ttf') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback; /* <- this can be added to each @font-face definition */
+}
