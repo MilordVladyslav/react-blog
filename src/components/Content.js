@@ -6,12 +6,12 @@ export const Content = () => {
         <AppContainer>
             <CategoryDescription></CategoryDescription>
             <GridLayout>
-                <GridItem column="span 2">Hello</GridItem>
-                <GridItem row="span 2">Helo</GridItem>
-                <GridItem row="span 2">Helo</GridItem>
-                <GridItem column="span 1" row="span 2">Hello</GridItem>
-                <GridItem row="span 2">Helo</GridItem>
-                <GridItem column="span 2">Helo</GridItem>
+                <GridItem column="span 2">Block</GridItem>
+                <GridItem row="span 2">Block</GridItem>
+                <GridItem row="span 2">Block</GridItem>
+                <GridItem column="span 1" row="span 2">Block</GridItem>
+                <GridItem row="span 2">Block</GridItem>
+                <GridItem column="span 2">Block</GridItem>
             </GridLayout>
         </AppContainer>
     )
