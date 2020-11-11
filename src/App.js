@@ -1,14 +1,24 @@
 import './App.css';
 import { Header } from './components/Header'
-import { Content } from './components/Content'
+
 import { GlobalStyle } from './styles/style'
+import { Routes } from './routes'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <GlobalStyle></GlobalStyle>
-      <Header></Header>
-      <Content></Content>
-    </div>
+    <Router>
+      <div>
+        <GlobalStyle></GlobalStyle>
+        <Header></Header>
+        <Routes></Routes>
+      </div>
+    </Router>
   )
 }
 
